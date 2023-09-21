@@ -1,7 +1,7 @@
 import streamlit as st
 import pyshorteners
 
-st.title("<h1 style= 'text-align: center;'>🔗URL Shortener"</h1>, unsafe_allow_html=True)
+st.title("<h1 style= 'text-align: center;'>🔗URL Shortener</h1>", unsafe_allow_html=True)
 st.write("Crafted by Izatcrust ✨")
 st.divider()
 

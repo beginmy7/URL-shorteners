@@ -1,12 +1,12 @@
 import streamlit as st
 import pyshorteners
 
-st.title("🔗URL Shortener")
+st.title("<h1 style= 'text-align: center;'>🔗URL Shortener"</h1>, unsafe_allow_html=True)
 st.write("Crafted by Izatcrust ✨")
 st.divider()
 
 s = pyshorteners.Shortener()
-long_url = st.text_input("Masukkan link")
+long_url = st.form("URL Here")
 enter = st.button("Perpendek link")
 
 m = s.tinyurl.short(long_url)

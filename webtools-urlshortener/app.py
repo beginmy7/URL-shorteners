@@ -1,7 +1,7 @@
 import streamlit as st
 import pyshorteners
 
-st.title("URL Shortener")
+st.title("🔗URL Shortener")
 st.write("Crafted by Izatcrust ✨")
 st.divider()
 
